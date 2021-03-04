@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 
 install_requires = ['hyperspy>=1.6',
                     'matplotlib',
-                    'numpy',
+                    'numpy>1.20',
                     'scikit-image',
                     ]
 tests_require = ['pytest']
